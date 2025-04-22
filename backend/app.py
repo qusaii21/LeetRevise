@@ -20,7 +20,7 @@ CORS(app)  # Enable CORS for all routes
 
 # Global variables
 LEETCODE_API_BASE_URL = "http://localhost:3000/"  # Local API base URL
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyBFoh57DC91SRffa2qONpHM_7CsDexiUeI")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
 NUM_RECOMMENDATIONS = 15
 TOP_FILTERED = 5
 
