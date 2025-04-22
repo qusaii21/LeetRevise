@@ -1,0 +1,14 @@
+﻿/* src/styles/Recommendations.css */
+.recommendations-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .recommendations-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #0056b3;
+  }
+  
+ 

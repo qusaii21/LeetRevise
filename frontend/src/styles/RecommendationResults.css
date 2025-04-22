@@ -1,0 +1,119 @@
+﻿/* src/styles/RecommendationResults.css */
+.recommendation-results {
+    margin-top: 2rem;
+  }
+  
+  .loading-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  .top-recommendations {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .top-recommendations h3 {
+    margin-bottom: 1rem;
+    color: #0056b3;
+  }
+  
+  .ai-analysis {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    line-height: 1.6;
+  }
+  
+  .all-recommendations {
+    margin-top: 2rem;
+  }
+  
+  .all-recommendations h3 {
+    margin-bottom: 1.5rem;
+    color: #0056b3;
+  }
+  
+  .recommendation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .recommendation-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .recommendation-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .recommendation-card h4 {
+    margin-bottom: 1rem;
+    color: #0056b3;
+  }
+  
+  .rec-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .difficulty {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
+  .difficulty.easy {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .difficulty.medium {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .difficulty.hard {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .similarity {
+    font-weight: 500;
+    color: #666;
+  }
+  
+  .rec-description {
+    margin-bottom: 1rem;
+    color: #666;
+    height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .view-problem {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .view-problem:hover {
+    background-color: #003d82;
+  }
