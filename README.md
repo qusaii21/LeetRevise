@@ -7,7 +7,7 @@ A full-stack web application that provides personalized LeetCode question recomm
 ## Demo Video
 
 <video width="100%" controls>
-  <source src="https://github.com/qusaii21/LeetRevise/main/assets/demo.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/qusaii21/LeetRevise/main/assets/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
